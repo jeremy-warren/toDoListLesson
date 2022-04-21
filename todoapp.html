@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todostyle.css">
+</head>
+<body>
+    
+    <h1>To-Do List</h1>
+
+    <!-- The actual list -->
+    <ul id="toDoList">
+        <li class = "toDoItem">Make some to-dos!</li>
+    </ul>
+
+    <!-- aspirational goal / instructions -->
+    <p>click a to-do to mark it done. Double-click to remove it.</p>
+<hr>
+
+<form id="adderForm">
+
+    <!-- button to add a new list item -->
+<label for="task">Add a new to-do: </label>
+<input type="text" id="task" name="task"> 
+<input type="submit" value="Submit">
+
+</form>
+
+    <script src="todoapp.js"></script>
+</body>
+</html>
